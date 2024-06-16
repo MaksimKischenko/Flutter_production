@@ -1,0 +1,3 @@
+enum EripServiceType {
+  node, service
+}

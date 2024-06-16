@@ -1,0 +1,17 @@
+export 'about/about_screen.dart';
+export 'add_device/add_device_screen.dart';
+export 'auth/auth_screen.dart';
+export 'claim_info/claim_info_screen.dart';
+export 'claim_payments/claim_payments_screen.dart';
+export 'claims/claims_screen.dart';
+export 'claims_filter/claims_filter_screen.dart';
+export 'home/home_screen.dart';
+export 'info/info_screen.dart';
+export 'new_claim/new_claim_screen.dart';
+export 'payment_info/payment_info_screen.dart';
+export 'payments/payments_screen.dart';
+export 'payments_filter/payments_filter_screen.dart';
+export 'qr_cam/qr_cam_screen.dart';
+export 'services_qr/services_qr_screen.dart';
+export 'settings/settings_screen.dart';
+export 'splash/splash_screen.dart';

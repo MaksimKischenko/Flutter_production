@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug mobile HELPPAY",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define",
+        "komplatApiUrl=http://192.168.244.126:8085/komplat", 
+        "--dart-define",
+        "komplatQrApiUrl=http://192.168.244.126:8085/helppay_qr/online.request",
+        "--dart-define",
+        "mdomApiUrl=http://192.168.244.126:8085/mdom_user",
+        "--dart-define",
+        "mdomTpIntApi=http://192.168.244.126:8085/komplat_internal",
+        "--dart-define",
+        "mdomTpInfoApi=http://192.168.244.126:8085/mdom_user",
+        "--dart-define",
+        "defaultLogin=praded@mdom.by",
+        "--dart-define",
+        "defaultPassword=0112358",
+        "--dart-define",
+        "appFlavour=mdom",
+      ]
+    },
+    {
+      "name": "Debug production",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define",
+        "defaultLogin=praded@mdom.by",
+        "--dart-define",
+        "defaultPassword=0112358"
+      ]
+    },
+  ]
+}

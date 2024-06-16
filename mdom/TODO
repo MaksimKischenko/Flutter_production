@@ -1,0 +1,35 @@
+KOMDEV-7214:
+- remove:
+  @required @done
+  <Widget> @done
+  new @done
+  BlocProvider.of @done
+- null-safety @done
+- qr_code_scanner replace with mobile_scanner @done
+- upgrade bloc @done
+- upgrade all dependencies @done
+- add analysis_options.yml @done
+- change padding to SizedBox where possible @done
+- move dataManager in parameter in all blocs @done
+- add device preview @done
+- preparaton for web testing @done
+- local storages refactoring @done
+- move all navigator.push & showScrollableDialog to navigation.dart @done
+- migrate to named navigation @done
+
+inWork:
+- main_screen as indexedStack (save all screen states)
+- localization
+- сделать отлавливание 403 ошибки и делать релогин с повторением запроса
+- migrate to auto_route
+- пуш нотификации
+- плавающее расстояние между колонками в claim_item
+- убрать informationRequest. Откуда брать Contacts?
+- pin-view на планшетах
+- выбор даты на планшетах
+- адаптация приложения под планшеты
+- registration_code: done залазит на зарегистрироваться
+- pin-код через 30 сек после сворачивания
+- numeric input: block !() and other symbols
+
+done:

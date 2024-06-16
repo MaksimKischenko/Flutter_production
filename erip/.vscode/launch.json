@@ -1,0 +1,74 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug DEV",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+              "--dart-define",
+              "komplatApiUrl=http://192.168.253.178:9580/kp_tpayer_o",
+              "--dart-define",
+              "defaultLogin=a1",
+              "--dart-define",
+              "defaultPassword=123456"
+            ]
+        },
+        {
+            "name": "Profile DEV",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+              "--dart-define",
+              "komplatApiUrl=http://192.168.253.178:9580/kp_tpayer_o",
+              "--dart-define",
+              "defaultLogin=a1",
+              "--dart-define",
+              "defaultPassword=123456"
+            ]
+        },
+        {
+            "name": "Release DEV",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+              "--dart-define",
+              "komplatApiUrl=http://192.168.253.178:9580/kp_tpayer_o",
+              "--dart-define",
+              "defaultLogin=a1",
+              "--dart-define",
+              "defaultPassword=123456"
+            ]
+        },
+        {
+          "name": "Debug Production ERIP",
+          "request": "launch",
+          "type": "dart",
+          "flutterMode": "debug",
+          "args": [
+            "--dart-define",
+            "defaultLogin=apple",
+            "--dart-define",
+            "defaultPassword=uN1EJ4uobY"
+          ]
+        },
+        {
+          "name": "Release Production ERIP",
+          "request": "launch",
+          "type": "dart",
+          "flutterMode": "release",
+          "args": [
+            "--dart-define",
+            "defaultLogin=apple",
+            "--dart-define",
+            "defaultPassword=uN1EJ4uobY"
+          ]
+        },
+    ]
+}

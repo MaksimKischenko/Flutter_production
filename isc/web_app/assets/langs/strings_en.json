@@ -1,0 +1,771 @@
+{
+  "mobileScreens": {
+    "splash": {
+      "loadingMessage": "Please wait",
+      "repeatButton": "Repeat",
+      "errorMessage": "Error"
+    },
+    "auth": {
+      "title": "Enter",
+      "forgotPassword": "Forgot your password?",
+      "authButton": "Enter",
+      "registrationButton": "Register"
+    },
+    "authPasswordReset": {
+      "title": "Change password",
+      "resetButton": "Change",
+      "login": "Login",
+      "success": "Successfully",
+      "message": "New password sent by email",
+      "loginHint": "Your login",
+      "errors": {
+        "empty": "Required field"
+      }
+    },
+    "registration": {
+      "title": "Registration",
+      "passwordRepeatField": {
+        "title": "Confirm password",
+        "errors": {
+          "passwordsNotMatch": "Passwords do not match"
+        }
+      },
+      "smsSwitch": {
+        "tilte": "Send verification code via SMS"
+      },
+      "phoneField": {
+        "title": "Phone number",
+        "errors": {
+          "incorrectFormat": "Wrong format",
+          "empty": "Required field"
+        }
+      },
+      "applyButton": "Proceed"
+    },
+    "registration_code": {
+      "title": "Registration",
+      "codeField": {
+        "title": {
+          "email": "Code from E-mail",
+          "sms": "Code from SMS"
+        },
+        "errors": {
+          "incorrectFormat": "Wrong format",
+          "empty": "Required field"
+        }
+      },
+      "applyButton": "Register"
+    },
+    "registration_params": {
+      "title": "Registration",
+      "applyButton": "Proceed",
+      "paramDateField": {
+        "errors": {
+          "general": "Incorrect date"
+        }
+      },
+      "paramField": {
+        "errors": {
+          "empty": "Required field",
+          "minLength": "Minimum length {minLength}"
+        }
+      }
+    },
+    "registration_success": {
+      "title": "Ready!",
+      "message": "You have successfully registered",
+      "pinSetupDescription": "Need to set up the fast login feature with Passcode",
+      "setPinButton": "Set up"
+    },
+    "main": {
+      "menu": {
+        "history": "History",
+        "userGuide": "Guide",
+        "products": "Products",
+        "accruals": "Organisations",
+        "claims": "Сlaims",
+        "payments": "Payments", 
+        "profile": "Profile",
+        "scanQr": "Scanner",
+        "qrPayment": "My QR"
+      }
+    },
+    "payments_history": {
+      "title": "History",
+      "filterButton": "Open filter",
+      "noMoreDataMessage": "No more payments",
+      "emptyDataMessage": "The list is empty.\nUse a filter"
+    },
+    "qrPayment": {
+      "generateQrButton": "Get QR",
+      "updateQrButton": "Update QR",
+      "confirmOrderBySMS": "Confirm SMS",
+      "paymentDialogTitle": "QR payment",
+      "historyDialogTitle": "QR operation",
+      "historyDialogMessage": "Payment canceled"
+    },
+    "payments_history_filters": {
+      "title": "Filter",
+      "resetButton": "Reset",
+      "periodTitle": "Period",
+      "dateFromField": {
+        "tilte": "from",
+        "errors": {
+          "dateIsAfter": "Error",
+          "empty": "Error"
+        }
+      },
+      "dateToField": {
+        "tilte": "to",
+        "errors": {
+          "dateIsBefore": "Error",
+          "empty": "Error"
+        }
+      },
+      "productsTitle": "Accounts and cards",
+      "applyButton": "Apply"
+    },
+    "products": {
+      "title": "Accounts and cards",
+      "addButton": "Add",
+      "mainProductTitle": {
+        "account": "Main account",
+        "card": "Main card"
+      },
+      "productsSegmentControlTitle": {
+        "account": "Accounts",
+        "card": "Cards"
+      }
+    },
+    "payment": {
+      "title": "Payments",
+      "sumText": "To pay",
+      "payButtonMessage": "This feature is currently unavailable",
+      "payButtonTitle": "Operation rejected",
+      "emty": "The list is empty",
+      "details": "Payment details",
+      "requirmentNumber": "Requirment number",
+      "errorMessage": "Error",
+      "modal": {
+        "error": {
+          "title": "Error",
+          "repeatButton": "Repeat",
+          "doneButton": "Ok"
+        }
+      },
+      "fieldsPage": {
+        "paramField": {
+          "errors": {
+            "empty": "Required field",
+            "minLength": "Minimum length {minLength}"
+          }
+        },
+        "nextButton": "Further"
+      },
+      "serviceResultPage": {
+        "nextButton": "Pay"
+      },
+      "attrDate": {
+        "errors": {
+          "general": "Incorrect date"
+        }
+      }
+    },
+    "product_add": {
+      "title": "Add",
+      "modal": {
+        "success": {
+          "title": "Successfully",
+          "message": {
+            "account": "Account added",
+            "card": "Card added"
+          }
+        }
+      },
+      "productSelector": {
+        "account": "Account",
+        "card": "Card"
+      },
+      "accountForm": {
+        "accountNumberField": {
+          "tilte": "Account number*",
+          "errors": {
+            "empty": "Enter account number",
+            "incorrectFormat": "Invalid account number format"
+          }
+        },
+        "paramField": {
+          "errors": {
+            "empty": "Required field",
+            "minLength": "Minimum length {minLength}"
+          }
+        },
+        "addButton": "Add account"
+      },
+      "cardForm": {
+        "cardNumberField": {
+          "tilte": "Card number*",
+          "errors": {
+            "empty": "Enter card number",
+            "incorrectFormat": "Invalid card number format"
+          }
+        },
+        "expiryField": {
+          "tilte": "Expiration date*",
+          "errors": {
+            "empty": "Enter expiration date",
+            "incorrectFormat": "Invalid card number format"
+          }
+        },
+        "cvvField": {
+          "errors": {
+            "empty": "Enter CVV",
+            "incorrectFormat": "Invalid CVV format"
+          }
+        },
+        "paramField": {
+          "errors": {
+            "empty": "Required field",
+            "minLength": "Minimum length {minLength}"
+          }
+        },
+        "addButton": "Add a card"
+      },
+      "paramDate": {
+        "errors": {
+          "general": "Incorrect date"
+        }
+      }
+    },
+    "cardInfo": {
+      "title": "Card editing",
+      "buttonTitle": "Save",
+      "properties": {
+        "number": "Card number",
+        "expirationDate": "Validaty"
+      },
+      "modal": {
+        "deleteProduct": {
+          "title": "Attention",
+          "message": "Are you sure you want to delete the card?",
+          "deleteButton": "Delete",
+          "cancelButton": "No"
+        },
+        "succesProductDelete": {
+          "title": "Successfully",
+          "message": "Card deleted"
+        }
+      },
+      "editName": {
+        "paramField": {
+          "errors": {
+            "empty": "Required field",
+            "minLength": "Minimum length {minLength}"
+          }
+        },
+        "doneButton": "Done"
+      },
+      "makeMainButton": "Make main",
+      "deleteButton": "Delete"
+    },
+    "accountInfo": {
+      "title": "Account editing",
+      "buttonTitle": "Save",
+      "properties": {
+        "number": "Account number"
+      },
+      "modal": {
+        "deleteProduct": {
+          "title": "Attention",
+          "message": "Are you sure you want to delete your account?",
+          "deleteButton": "Delete",
+          "cancelButton": "No"
+        },
+        "succesProductDelete": {
+          "title": "Successfully",
+          "message": "Account deleted"
+        }
+      },
+      "editName": {
+        "paramField": {
+          "errors": {
+            "empty": "Required field",
+            "minLength": "Minimum length {minLength}"
+          }
+        },
+        "doneButton": "Done"
+      },
+      "makeMainButton": "Make main",
+      "deleteButton": "Delete"
+    },
+    "profile": {
+      "title": "Profile",
+      "editButton": "Editing",
+      "settingsItem": {
+        "title": "Settings"
+      },
+      "logOutItem": {
+        "title": "Exit"
+      }
+    },
+    "profile_edit": {
+      "title": "Editing",
+      "modal": {
+        "success": {
+          "title": "Successfully",
+          "message": "User edited"
+        }
+      },
+      "paramField": {
+        "errors": {
+          "empty": "Required field",
+          "minLength": "Minimum length {minLength}"
+        }
+      },
+      "saveButton": "Ready"
+    },
+    "settings": {
+      "title": "Settings",
+      "modal": {
+        "changePinSuccess": {
+          "title": "Successfully",
+          "message": "PIN code changed"
+        }
+      },
+      "sections": {
+        "access": {
+          "title": "Access",
+          "changePin": "Change PIN"
+        },
+        "account": {
+          "tilte": "Account",
+          "language": "Language",
+          "changePassword": "Change password"
+        },
+        "deleteAccount": {
+          "title": "Account deleting",
+          "text": "Are you sure you want to delete your account?",
+          "success": "Account successfully deleted",
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      "authWithBiometricsItem": {
+        "biometricDescription": "biometrics",
+        "message": "Enter with {biometricDescription}"
+      }
+    },
+    "change_password": {
+      "title": "Change password",
+      "saveButton": "Change",
+      "loadingTitle": "Please wait",
+      "oldPasswordField": {
+        "title": "Old password",
+        "errors": {
+          "incorrect": "Wrong old password"
+        }
+      },
+      "newPasswordField": {
+        "title": "New password",
+        "errors": {
+          "passwordsNotMatch": "Passwords do not match"
+        }
+      },
+      "newPasswordRepeatField": {
+        "title": "Confirm new password",
+        "errors": {
+          "passwordsNotMatch": "Passwords do not match"
+        }
+      }
+    },
+    "qr_scan": {
+      "flashButton": {
+        "turnOn": "Turn on flash",
+        "turnOff": "Turn off flash"
+      },
+      "modal": {
+        "error": {
+          "title": "Error",
+          "message": "The QR code is invalid. {error}"
+        }
+      },
+      "qrCam": {
+        "permissions": {
+          "denied": "You have not granted permission to access the camera",
+          "permamentlyDenied": "Access to the camera is permanently blocked by you or the phone's security policy"
+        },
+        "providePermissionButton": "Provide permission",
+        "scanMessage": "Point your camera at the QR code"
+      }
+    },
+    "mdomAccruals": {
+      "title": "Organisations",
+      "addButton": "+ Add account",
+      "accountItem": {
+        "title": "Account number",
+        "underConsideration": "Under consideration",
+        "waitingRegistration": "Waiting for client registration"
+      },
+      "pollItem": {
+        "title": "Polls",
+        "newLabel": "new"
+      }
+    },
+    "mdomNotificationsScreen": {
+      "title": "Notifications",
+      "readAllButton": "Read all",
+      "readButton": "New",
+      "successModal": {
+        "title": "Success"
+      },
+      "loadMore": "Load more",
+      "notificationsListEmpty": "Notifications list is empty"
+    },
+    "mdomAccountAdd": {
+      "title": "Adding account",
+      "successModal": {
+        "title": "Successfully",
+        "text": "Account added"
+      },
+      "addButton": "Add",
+      "accountNumberField": {
+        "title": "Account number",
+        "errors": {
+          "empty": "Enter account number"
+        }
+      },
+      "codeWordField": {
+        "title": "Code word",
+        "errors": {
+          "empty": "Enter code word"
+        }
+      },
+      "supplierIdField": {
+        "title": "Organization ID",
+        "errors": {
+          "empty": "Enter ID"
+        }
+      }
+    },
+    "mdomCompanyChoise": {
+      "title": "Choose organization",
+      "searchField": {
+        "hint": "Search"
+      },
+      "selectButton": "Select"
+    },
+    "mdomCompanySearch": {
+      "title": "Organization search",
+      "searchField": {
+        "hint": "Search"
+      },
+      "UnpField": {
+        "title": "PAN",
+        "errors": {
+          "empty": "Enter a PAN",
+          "length": "Minimum length 9 characters"
+        }
+      },
+      "NameField": {
+        "title": "Name of company",
+        "errors": {
+          "empty": "Enter a name",
+          "length": "Minimum length 3 characters"
+        }
+      },
+      "errors": {
+        "empty": "Organization not found"
+      },
+      "selectButton": "Select"
+    },
+    "mdomAccountInfo": {
+      "tilte": "Account statement",
+      "periodSection": {
+        "tilte": "Period"
+      },
+      "chargingSection": {
+        "tilte": "Charging statistics"
+      },
+      "paySection": {
+        "tilte": "Payment statistics"
+      },
+      "chargingSectionInfo": {
+        "remainder": "Carryover",
+        "fine": "Fine",
+        "paid": "Paid",
+        "total": "Total accrued"
+      },
+      "serviceSection": {
+        "tilte": "Service statistics",
+        "item": {
+          "count": "Count",
+          "rate": "Rate"
+        }
+      },
+      "serviceSectionInfo": {
+        "item": {
+          "count": "Count",
+          "units": "Units",
+          "tarif": "Tarif rub.",
+          "accrued": "Accrued rub.",
+          "recalculation": "Recalculation rub.",
+          "benefit": "Benefit rub.",
+          "total": "Total rub."
+        }
+      },
+      "requirementsInfo": {
+        "dateStart": "Claim start date:",
+        "dateEnd": "Claim end date:",
+        "accrued": "Total amount of payments on demand:",
+        "total": "Amount to pay:"
+      },
+      "payButton": {
+        "noPayments": "Done",
+        "needPay": "Pay {amount} {currency}",
+        "noNeedPay": "Overpayment {amount} {currency}"
+      },
+      "payInfo": "Pay {amount} {currency}"
+    },
+    "mdomAccountPaymentInfo": {
+      "paymentDate": "Payment date",
+      "paymentCode": "Payment code",
+      "sum": "Sum",
+      "description": "Description"
+    },
+    "mdomServiceInfo": {
+      "doneButton": "Done"
+    },
+    "mdomPediod": {
+      "title": "Period",
+      "doneButton": "Select"
+    },
+    "mdomPeriodCustom": {
+      "title": "Custom period",
+      "dateField": {
+        "errors": {
+          "format": "Invalid date format"
+        }
+      },
+      "dateFromField": {
+        "tilte": "Period beginning",
+        "hint": "01/01/2022",
+        "errors": {
+          "dateIsAfter": "Ошибка",
+          "empty": "Error"
+        }
+      },
+      "dateToField": {
+        "tilte": "Period end",
+        "hint": "01/02/2022",
+        "errors": {
+          "dateIsBefore": "Ошибка",
+          "empty": "Error"
+        }
+      },
+      "doneButton": "Select"
+    },
+    "selectLanguage": {
+      "title": "Select language",
+      "currentLanguageLabel": "Current"
+    },
+    "mdomPollsList": {
+      "title": "Polls",
+      "filtersButton": "Filter",
+      "currentStatus": {
+        "title": "Status"
+      },
+      "emptyDataMessage": "The list is empty.\nUse a filter",
+      "noMoreDataMessage": "No more polls.",
+      "pollItem": {
+        "votedText": {
+          "yes": "You voted",
+          "no": "Not voted"
+        },
+        "startText": "Will begin {date}",
+        "completedText": "Completed {date}",
+        "endingText": "Ending"
+      }
+    },
+    "mdomPollsListFilters": {
+      "title": "Polls",
+      "cancelButton": "Cancel",
+      "resetButton": "Reset",
+      "statusPicker": {
+        "title": "Status"
+      },
+      "endDateRangePicker": {
+        "title": "End of voting",
+        "calendarModalTitle": "End of voting"
+      },
+      "applyButton": "Apply"
+    },
+    "mdomPoll": {
+      "title": {
+        "expandText": "show",
+        "collapseText": "hide"
+      },
+      "modal": {
+        "successVote": "Your answers have been sent",
+        "successEdit": "Your answers have been updated"
+      },
+      "linkItem": "Detailed information",
+      "info": {
+        "ending": "Ending"
+      },
+      "questionsList": {
+        "title": "Questions",
+        "votedText": "You voted",
+        "startText": "Will begin {date}",
+        "completedText": "Completed {date}"
+      },
+      "voteButton": {
+        "vote": "Vote",
+        "edit": "Save"
+      },
+      "editButton": "Edit answers",
+      "pollsStatButtonNoOneVoted": "No one has voted",
+      "pollsStatButtonNoOneVotedYeat": "No one has voted yet",
+      "pollStatButton": {
+        "one": "{count} people voted",
+        "other": "{count} peoples voted"
+      }
+    },
+    "mdomPollStatistics": {
+      "title": "Questions",
+      "votedText": "Voted",
+      "participantsText": "Participants"
+    },
+    "mdomPollStatisticsQuestion": {
+      "votedText": "Total votes",
+      "errorMessage": "Error",
+      "answersTitle": {
+        "yes": "Yes",
+        "no": "No",
+        "abstain": "Abstained"
+      }
+    }
+  },
+  "models": {
+    "paramType": {
+      "error": "Incorrect value"
+    },
+    "period": {
+      "title": "Personal account",
+      "names": {
+        "notSet": "Unknown",
+        "month": "Month",
+        "quarter": "Quarter",
+        "year": "Year",
+        "custom": "Custom period"
+      },
+      "selectedNames": {
+        "notSet": "Select period",
+        "month": "{month} {year}",
+        "quarter": "{quarter} quarter {year}",
+        "year": "{year} year",
+        "custom": "{startDate} - {endDate}"
+      }
+    },
+    "pollStatus": {
+      "all": "All",
+      "publication": "Publication",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    },
+    "pollAnswer": {
+      "active": {
+        "yes": "Yes",
+        "no": "No",
+        "abstain": "Abstain"
+      },
+      "voted": {
+        "yes": "Yes",
+        "no": "No",
+        "abstain": "Abstain"
+      }
+    }
+  },
+  "widgets": {
+    "refreshHeader": {
+      "idle": "Pull down to refresh"
+    },
+    "refreshFooter": {
+      "statuses": {
+        "noMoreData": "No more data",
+        "idle": "Load more",
+        "failed": "Server communication error",
+        "canLoading": "Release to load more"
+      }
+    },
+    "emailField": {
+      "errors": {
+        "incorrect": "Invalid E-mail format",
+        "empty": "Enter E-mail"
+      }
+    },
+    "fioField": {
+      "errors": {
+        "incorrect": "Invalid format",
+        "empty": "Enter credentials"
+      }
+    },
+    "passwordField": {
+      "title": "Password",
+      "errors": {
+        "empty": "Enter password",
+        "minLength": "Minimum password length {minLength} characters"
+      }
+    }
+  },
+  "modal": {
+    "pinSetup": {
+      "title": {
+        "first": "Enter new PIN",
+        "repeat": "Repeat new PIN"
+      },
+      "cancelButton": "Cancel",
+      "localizedReason": "Authorization in the application"
+    },
+    "pinVerify": {
+      "title": "Repeat PIN",
+      "cancelButton": "Cancel",
+      "biometricReason": "Authorization in the application"
+    },
+    "biometricSetup": {
+      "biometricDescription": "biometrics",
+      "title": "Use {biometricDescription} to login to app?",
+      "confirmButton": "Yes",
+      "cancelButton": "No"
+    },
+    "decisionMessage": {
+      "title": "Attention",
+      "confirmButton": "Ok",
+      "cancelButton": "Cancel"
+    },
+    "logOut": {
+      "title": "Are you sure you want to leave?",
+      "message": "Your authorized data will be deleted from the device",
+      "confirmButton": "Exit",
+      "cancelButton": "Stay"
+    }
+  },
+  "general": {
+    "errorModal": {
+      "title": "Error"
+    }
+  },
+  "exceptions": {
+    "emtyOrganizationsList": "Add an account",
+    "networkError": "Failed to connect servers",
+    "changePasswordBloc": {
+      "wrongOldPassword": "Old password is wrong"
+    },
+    "paymentBloc": {
+      "unknownService": "Failed to get service information"
+    },
+    "qrErip": {
+      "verifyCheckSum": "Invalid checksum"
+    },
+    "onlyIndividuals": "This application is intended for individuals"
+  }
+}

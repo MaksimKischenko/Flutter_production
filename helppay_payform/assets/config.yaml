@@ -1,0 +1,25 @@
+#TEST EMULATOR
+isUrlHashStrategy: false
+apiUrl: http://192.168.244.126:8085/helppay_payform
+pictureUrl: http://192.168.244.126:8085/helppay_payform
+listPopularRequestLoadCount: 100
+allServicesCode: 11000000000
+
+
+#TEST SERVER
+# isUrlHashStrategy: false
+# urlAppend: /helppay_payform_web
+# apiUrl: http://192.168.244.126:8085/helppay_payform
+# pictureUrl: http://192.168.244.126:8085/helppay_payform
+# listPopularRequestLoadCount: 100
+# allServicesCode: 11000000000
+
+
+
+#PRODUCTION
+# isUrlHashStrategy: false
+# urlAppend: /helppay_payform_web
+# apiUrl: http://10.54.14.168:9580/helppay_payform
+# pictureUrl: http://10.54.14.167:3000
+# listPopularRequestLoadCount: 100
+# allServicesCode: 11000000000

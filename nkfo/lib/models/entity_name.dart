@@ -1,0 +1,42 @@
+import 'package:json_annotation/json_annotation.dart';
+
+enum EntityName {
+  @JsonValue('supplier')
+  supplier,
+  @JsonValue('supplier_account')
+  supplierAccount,
+  @JsonValue('user_')
+  user,
+  @JsonValue('user_type')
+  userType,
+  @JsonValue('reset_password')
+  userResetPassword, 
+  @JsonValue('op_audit')
+  audit,
+  @JsonValue('audit_application')
+  auditApplication,
+  @JsonValue('audit_action')
+  auditAction,
+  @JsonValue('op_audit_archive_day')
+  auditArchive,
+  @JsonValue('supplier_server_message')
+  serverMessage,
+  @JsonValue('change_password')
+  changePassword,
+  @JsonValue('job_config')
+  job,
+  @JsonValue('job_execute')
+  jobRun,
+  @JsonValue('job_part')
+  jobPart,
+  @JsonValue('job_part_execute')
+  jobPartRun,
+  @JsonValue('job_part_param')
+  jobPartParam,
+  @JsonValue('message_type')
+  messageType,
+  @JsonValue('start_message_reset')
+  startMessage,
+  @JsonValue('unknown')
+  unknown,
+}

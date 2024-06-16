@@ -1,0 +1,3 @@
+enum MainProductType {
+  account, card
+}

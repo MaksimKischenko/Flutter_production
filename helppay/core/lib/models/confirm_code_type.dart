@@ -1,0 +1,3 @@
+enum ConfirmCodeType {
+  email, sms
+}

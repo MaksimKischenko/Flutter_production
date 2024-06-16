@@ -1,0 +1,17 @@
+inWork:
+    !!!Done- dialogs with AlertDialog
+    !!!Done- All screenw with navigator. NOT modal
+    - Tables: sticky headers
+    - one screen - one dir !!!
+    - mailings_screen:
+        - table more icon: all selected
+    - settings_screen:
+        - password page
+        - fix overflow in fields page
+    - suppliers_bloc:
+        - проблема компоновки при сортировке и load more
+    - валидаторы для типов полей (double, int, string)
+    - неизвестна реальная необходимая длина полей
+    - insert/update нет необходимости грузить списки, можно передать с прошлых экранов
+    - на экране редактирвоания привязать кнопку сохранения к load-состоянию блоков
+    - sort index not working

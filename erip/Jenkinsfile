@@ -1,0 +1,124 @@
+pipeline {
+  agent any
+
+  // global enviroment
+  // environment {
+    
+  // }
+
+  stages {
+    // TODO: uncomment in real cd/ci
+    // stage('Init') {
+    //   steps {
+    //     sh "gem install bundler"
+    //     dir("ios") {
+    //       sh "bundle install"
+    //     }
+    //   }
+    // }
+
+    stage('Flutter Doctor') {
+      steps {
+        sh "flutter doctor -v"
+      }
+    }
+
+    stage('Cleanup') {
+      when {
+        not {
+          branch 'release/*'
+        }
+        not {
+          branch 'feature/*'
+        }
+      }
+      steps {
+        sh "flutter clean"
+      }
+    }
+
+    stage('Get Dependencies') {
+      when {
+        not {
+          branch 'release/*'
+        }
+        not {
+          branch 'feature/*'
+        }
+      }
+      steps {
+        sh "flutter pub get"
+      }
+    }
+
+    stage('Build Android apk (develop/PR)') {
+      when { 
+        anyOf {
+          branch 'develop'
+          branch 'PR-*'
+        }
+      }
+      steps {
+        // sh "flutter build apk --split-per-abi"
+        sh "flutter build apk"
+        archiveArtifacts artifacts: 'build/app/outputs/flutter-apk/*.apk', onlyIfSuccessful: true
+      }
+    }
+
+    stage('Build iOS (develop/PR)') {
+      when { 
+        anyOf {
+          branch 'develop'
+          branch 'PR-*'
+        }
+      }
+      steps {
+        sh "flutter build ios"
+      }
+    }
+
+    stage('Build Android (release)') {
+      when { branch 'tag/*' }
+      steps {
+        sh "flutter build appbundle"
+      }
+    }
+
+    stage('Distibute Android (release)') {
+      when { branch 'tag/*' }
+      environment {
+        FASTLANE_PLAY_STORE_KEY_DATA = credentials('fastlane_play_store_key_data')
+      }
+      steps {
+        dir("android") {
+          sh "bundle exec fastlane googleplay"
+          junit 'fastlane/report.xml'
+        }
+      }
+    }
+
+    stage('Build iOS (release)') {
+      when { branch 'tag/*' }
+      steps {
+        // sh "flutter build ios --release --no-codesign"
+        sh "flutter build ipa"
+      }
+    }
+
+    stage('Distibute iOS (release)') {
+      when { branch 'tag/*' }
+      environment {
+        FASTLANE_PASSWORD = credentials('fastlane_publisher_password')
+        // SPACESHIP_2FA_SMS_DEFAULT_PHONE_NUMBER=""
+        FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD = credentials('fastlane_apple_application_specific_password')
+      }
+      steps {
+        dir("ios") {
+          sh "bundle exec fastlane appstore"
+          junit 'fastlane/report.xml'
+        }
+      }
+    }
+  }
+
+}

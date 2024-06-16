@@ -1,0 +1,20 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class SvgAssets extends StatelessWidget {
+  final String path;
+  final double? width;
+  final double? height;
+
+  const SvgAssets(this.path, {this.width, this.height});
+
+  String get appender => kIsWeb ? 'assets/' : 'assets/';
+
+  @override
+  Widget build(BuildContext context) => SvgPicture.asset(
+        '$appender$path',
+        width: width,
+        height: height,
+      );
+}

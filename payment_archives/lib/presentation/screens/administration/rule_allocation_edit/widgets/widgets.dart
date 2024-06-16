@@ -1,0 +1,1 @@
+export 'rule_allocation_edit_screen_body.dart';

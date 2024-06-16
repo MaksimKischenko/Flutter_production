@@ -1,0 +1,6 @@
+
+apiUrl: http://192.168.253.178:5539 
+#apiUrl: http://192.168.244.113:8080/api
+webSocketApi: ws://192.168.244.113:4001
+#webSocketApi: ws://192.168.244.113:8082 
+webSocketChannelName: search_payment_response

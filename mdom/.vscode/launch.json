@@ -1,0 +1,109 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug DEV",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define",
+        "komplatApiUrl=http://192.168.244.126:8085/komplat_new_ora",
+        "--dart-define",
+        "mdomApiUrl=http://192.168.244.126:8085/mdom_user",
+        "--dart-define",
+        "mdomTpIntApi=http://192.168.244.126:8085/komplat_internal",
+        "--dart-define",
+        "defaultLogin=a1",
+        "--dart-define",
+        "defaultPassword=123456"
+        // "defaultLogin=fecewob904@yosemail.com",
+        // "--dart-define",
+        // "defaultPassword=123456"
+      ]
+    },
+    {
+      "name": "Profile DEV",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": [
+        "--dart-define",
+        "komplatApiUrl=http://192.168244.126:8085/komplat_new",
+        "--dart-define",
+        "mdomApiUrl=http://192.168.244.126:8085/mdom_user_entity",
+        "--dart-define",
+        "mdomTpIntApi=http://192.168.244.126:8085/komplat_internal",
+        "--dart-define",
+        "defaultLogin=a1",
+        "--dart-define",
+        "defaultPassword=123456"
+      ]
+    },
+    {
+      "name": "Release DEV",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--dart-define",
+        "komplatApiUrl=http://192.168.244.126:8085/komplat_new",
+        "--dart-define",
+        "mdomApiUrl=http://192.168.244.126:8085/mdom_user_entity",
+        "--dart-define",
+        "mdomTpIntApi=http://192.168.244.126:8085/komplat_internal",
+        "--dart-define",
+        "defaultLogin=a1",
+        "--dart-define",
+        "defaultPassword=123456"
+      ]
+    },
+    {
+      "name": "Debug with fake frames",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define",
+        "showFakeDeviceFrame=true",
+        "--dart-define",
+        "komplatApiUrl=http://192.168.244.126:8085/komplat_new",
+        "--dart-define",
+        "mdomApiUrl=http://192.168.244.126:8085/mdom_user_entity",
+        "--dart-define",
+        "mdomTpIntApi=http://192.168.244.126:8085/komplat_internal",
+        "--dart-define",
+        "defaultLogin=a1",
+        "--dart-define",
+        "defaultPassword=123456"
+      ]
+    },
+    {
+      "name": "Debug Production MDOM",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define",
+        "defaultLogin=Balashi",
+        "--dart-define",
+        "defaultPassword=0112358"
+      ]
+    },
+    {
+      "name": "Release Production MDOM",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--dart-define",
+        "defaultLogin=BelExpress",
+        "--dart-define",
+        "defaultPassword=belexpress$by"
+      ]
+    },
+  ]
+}

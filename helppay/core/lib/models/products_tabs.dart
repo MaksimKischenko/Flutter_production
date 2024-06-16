@@ -1,0 +1,3 @@
+enum ProductsTab {
+  accounts, cards
+}

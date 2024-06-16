@@ -1,0 +1,13 @@
+inWork:
+    - services_screen: errors top positioned. move to center
+    - all screens: wrong title when forward button tapped
+    - services_screen: сохранение значений полей после ошибки
+    - запросы: нужно ли отдавать pan, typePan и прочие в gpl, ror, confirm
+    - ошибка кодировки
+    - popular_screen: service or node?
+    - service: sum_field refactoring, fields_page refactoring
+    - material button use wrong font
+    - service: attr_dropdown refactoring (remove controller & statefull)
+    - history_screen: parse query params
+    - refactoring all loadings buttons
+    - gpl: add properties handler

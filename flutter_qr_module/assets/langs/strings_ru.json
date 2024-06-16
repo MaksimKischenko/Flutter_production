@@ -1,0 +1,884 @@
+{
+  "mobileScreens": {
+    "splash": {
+      "loadingMessage": "Пожалуйста, подождите",
+      "repeatButton": "Повторить",
+      "errorMessage": "Ошибка"
+    },
+    "auth": {
+      "title": "Вход",
+      "forgotPassword": "Забыли пароль?",
+      "authButton": "Войти",
+      "registrationButton": "Зарегистрироваться"
+    },
+    "authPasswordReset": {
+      "title": "Смена пароля",
+      "communicationSource": "Источник коммуникации из профиля",
+      "resetButton": "Сменить",
+      "login": "Логин",
+      "phoneNumber": "Номер телефона",
+      "loginHint": "Ваш логин",
+      "success": "Успешно",
+      "message": "Новый пароль выслан на источник коммуникации из профиля",
+      "errors": {
+        "empty": "Поле обязательно для заполнения",
+        "phoneLength": "Минимальная длина телефона не подходит"
+      }
+    },
+    "registration": {
+      "title": "Регистрация",
+      "passwordRepeatField": {
+        "title": "Повторите пароль",
+        "errors": {
+          "passwordsNotMatch": "Пароли не совпадают"
+        }
+      },
+      "smsSwitch": {
+        "tilte": "Отправить код подтверждения по SMS"
+      },
+      "phoneField": {
+        "title": "Номер телефона",
+        "errors": {
+          "incorrectFormat": "Неверный формат",
+          "empty": "Поле обязательно для заполнения"
+        }
+      },
+      "applyButton": "Продолжить"
+    },
+    "registration_code": {
+      "title": "Регистрация",
+      "codeField": {
+        "title": {
+          "email": "Код из E-mail",
+          "sms": "Код из SMS"
+        },
+        "errors": {
+          "incorrectFormat": "Неверный формат",
+          "empty": "Поле обязательно для заполнения"
+        }
+      },
+      "applyButton": "Зарегистрироваться"
+    },
+    "registration_params": {
+      "title": "Регистрация",
+      "applyButton": "Продолжить",
+      "paramDateField": {
+        "errors": {
+          "general": "Некорректная дата"
+        }
+      },
+      "paramField": {
+        "errors": {
+          "empty": "Поле обязательно для заполнения",
+          "minLength": "Минимальная длина {minLength}"
+        }
+      }
+    },
+    "registration_success": {
+      "title": "Готово!",
+      "message": "Вы успешно прошли регистрацию",
+      "pinSetupDescription": "Необходимо настроить функцию быстрого входа с помощью Passcode",
+      "setPinButton": "Настроить"
+    },
+    "main": {
+      "menu": {
+        "history": "История",
+        "userGuide": "Справка",
+        "products": "Продукты",
+        "accruals": "Организации",
+        "profile": "Профиль",
+        "scanQr": "Сканер",
+        "qrPayment": "Мой QR"
+      }
+    },
+    "cardRegistration": {
+      "params": {
+        "cardTitle": "Карта БНБ-банка",
+        "bnbTitle": "ОАО «БНБ-Банк»",
+        "difitalCard": "Цифровая карта 1-2-3, BYN",
+        "currentCardsTitle": "Текущие карты",
+        "title": "Оформление карты",
+        "phone": "Введите номер телефона",
+        "phoneField": "Номер телефона",
+        "confirmationCodeField": "Код подтверждения",
+        "indificationNumberField": "Идентификационный номер",
+        "codeWordField": "Кодовое слово",
+        "errorValidationMessages": {
+          "validationPhone": "Введите номер телефона",
+          "validationCode": "Введите код подтверждения",
+          "validationIndification": "Введите идентификационный номер",
+          "validationCodeWord": "Введите кодовое слово",
+          "validationPhoneCorrect": "Введите корректный номер телефона",
+          "validationIndificationCorrect": "Введите корректный индификационный номер"
+        },
+        "errorsInfoMessaes": {
+          "errorTitle": "Что-то пошло не так",
+          "errorMessage": "Обратитесь в центр клиентского сервиса БНБ-Банка по номеру +375 29 309-7-309",
+          "errorTitleMSI": "Регистрация онлайн недоступна",
+          "errorTitleDesctiptionMSI": "Для завершения регистрации, пожалуйста,\n посетите любое отделение БНБ-банка\nс документом, удостоверяющим личность"
+        },
+        "agrement0": {
+          "agrementsTextSpan1": "Для быстрого оформления заявки в ОАО «БНБ-Банк» необходим ваш ",
+          "agrementsTextSpan2": "номер мобильного телефона и идентификационный номер. ",
+          "agrementsTextSpan3": "Нажимая «Продолжить», вы осуществляете передачу данных из приложения информационному ресурсу ОАО «БНБ-Банк»."
+        },
+        "agrement1": {
+          "agrementsTextSpan1": "Ознакомлен(a) и принимаю условия ",
+          "agrementsTextSpan2": "Политики\nконфиденциальности ",
+          "agrementsTextSpan3": "и ",
+          "agrementsTextSpan4": "Политики обработки\nперсональных данных"
+        },
+        "agrement2": {
+          "agrementsTextSpan1": "Соглашаюсь с  ",
+          "agrementsTextSpan2": "обработкой персональных данных"
+        },
+        "agrement3": {
+          "agrementsTextSpan1": "Соглашаюсь с ",
+          "agrementsTextSpan2": "Правилами обслуживания\nфизических лиц"
+        },
+        "confirmCode": "Введите код подтверждения\nиз SMS-сообщения",
+        "retryCodeTimer": "Отправить код повторно можно будет через: ",
+        "retryCode": "Отправить код повторно",
+        "idNumber": "Идентификационный номер",
+        "idNumberDesctiption": "14-значный идентификационный номер\nможно найти на 33 странице паспорта\nгражданина Республики Беларусь, на лицевой\nстороне ID-карты или на 17 странице вида на\nжительство",
+        "codeWordTitle": "Придумайте кодовое слово",
+        "codeWordDesctiption": "Кодовое слово может содержать не более\n25 заглавных или строчных букв на латинице\nили кириллице без пробелов, цифр и\n специальных символов",
+        "successRegistrationCard": "Карта готова!",
+        "successRegistrationCardDesctiption": "Вы можете ее использовать уже сейчас"
+      },
+      "nextButton": "Далее",
+      "continueButton": "Продолжить",
+      "successButton": "Хорошо",
+      "closeButton": "Закрыть",
+      "cancelButton": "Отменить",
+      "addButton": "Добавить",
+      "releaseButton": "Выпустить"
+    },
+    "payments_history": {
+      "title": "История",
+      "filterButton": "Открыть фильтр",
+      "noMoreDataMessage": "Платежей больше нет",
+      "emptyDataMessage": "Список пуст.\nВоспользуйтесь фильтром"
+    },
+    "qrPayment": {
+      "P2PPaymentButton": "P2P перевод",
+      "P2PpaymentSum": "Сумма перевода",
+      "P2PAmountError": "Сумма платежа должна быть больше 0",
+      "P2PDialogTitle": "Перевод средств",
+      "confirmButtonTitle": "Подтвердить",
+      "cancelButtonTitle": "Отменить",
+      "applyButton": "Применить",
+      "tranferHistory": "Выписка",
+      "hitorySearchResult": "Результат поиска:",
+      "historyIsEmpty": "История операций пуста",
+      "generateQrButton": "Получить QR",
+      "updateQrButton": "Обновить QR",
+      "confirmOrderBySMS": "Подтвердить СМС",
+      "qrPaymentTitle": "QR оплата",
+      "qrPaymentDecisionTitle": "Перейти к оплате платежа?",
+      "historyDialogTitle": "QR операция",
+      "paymentCanceledDialog": "Платёж отменён",
+      "error": "Ошибка"
+    },
+    "payments_history_filters": {
+      "title": "Фильтр",
+      "resetButton": "Сбросить",
+      "periodTitle": "Период",
+      "dateFromField": {
+        "tilte": "c",
+        "errors": {
+          "dateIsAfter": "Ошибка",
+          "empty": "Ошибка"
+        }
+      },
+      "dateToField": {
+        "tilte": "по",
+        "errors": {
+          "dateIsBefore": "Ошибка",
+          "empty": "Ошибка"
+        }
+      },
+      "productsTitle": "Счета и карты",
+      "applyButton": "Применить"
+    },
+    "payment": {
+      "title": "Платежи",
+      "sumText": "К оплате",
+      "payButtonTitle": "Операция отклонена",
+      "payButtonMessage": "В данное время функционал недоступен",
+      "emty": "Список пуст",
+      "details": "Детализация платежа",
+      "requirmentNumber": "Номер требования",
+      "errorMessage": "Ошибка",
+      "modal": {
+        "error": {
+          "title": "Ошибка",
+          "repeatButton": "Повторить",
+          "doneButton": "Ок"
+        }
+      },
+      "fieldsPage": {
+        "paramField": {
+          "errors": {
+            "empty": "Поле обязательно для заполнения",
+            "minLength": "Минимальная длина {minLength}"
+          }
+        },
+        "qrPayVerifyData": {
+          "title": "Введите недостающие данные",
+          "checkTitle": "Детали операции:",
+          "accountNumber": "Номер счета"
+        },
+        "nextButton": "Далее",
+        "finishButton": "Закрыть"
+      },
+      "serviceResultPage": {
+        "nextButton": "Оплатить"
+      },
+      "attrDate": {
+        "errors": {
+          "general": "Некорректная дата"
+        }
+      }
+    },
+    "products": {
+      "title": "Счета и карты",
+      "addButton": "Добавить",
+      "mainProductTitle": {
+        "account": "Основной счет",
+        "card": "Основная карта"
+      },
+      "productsSegmentControlTitle": {
+        "account": "Счета",
+        "card": "Карты"
+      }
+    },
+    "product_add": {
+      "title": "Добавить",
+      "modal": {
+        "success": {
+          "title": "Успешно",
+          "message": {
+            "account": "Счет добавлен",
+            "card": "Карта добавлена"
+          }
+        }
+      },
+      "productSelector": {
+        "account": "Счет",
+        "card": "Карту"
+      },
+      "accountForm": {
+        "accountNumberField": {
+          "tilte": "Номер счета*",
+          "errors": {
+            "empty": "Введите номер счета",
+            "incorrectFormat": "Неверный формат номера счета"
+          }
+        },
+        "paramField": {
+          "errors": {
+            "empty": "Поле обязательно для заполнения",
+            "minLength": "Минимальная длина {minLength}"
+          }
+        },
+        "addButton": "Добавить счет"
+      },
+      "cardForm": {
+        "cardNumberField": {
+          "tilte": "Номер карты*",
+          "errors": {
+            "empty": "Введите номер карты",
+            "incorrectFormat": "Неверный формат номера карты"
+          }
+        },
+        "expiryField": {
+          "tilte": "Срок действия*",
+          "errors": {
+            "empty": "Введите срок действия",
+            "incorrectFormat": "Неверный формат номера карты"
+          }
+        },
+        "cvvField": {
+          "errors": {
+            "empty": "Введите CVV",
+            "incorrectFormat": "Неверный формат CVV"
+          }
+        },
+        "paramField": {
+          "errors": {
+            "empty": "Поле обязательно для заполнения",
+            "minLength": "Минимальная длина {minLength}"
+          }
+        },
+        "addButton": "Добавить карту"
+      },
+      "paramDate": {
+        "errors": {
+          "general": "Некорректная дата"
+        }
+      }
+    },
+    "cardInfo": {
+      "title": "Редактирование карты",
+      "buttonTitle": "Сохранить",
+      "properties": {
+        "number": "Номер карты",
+        "expirationDate": "Срок действия"
+      },
+      "modal": {
+        "deleteProduct": {
+          "title": "Внимание",
+          "message": "Действительно хотите удалить карту?",
+          "deleteButton": "Удалить",
+          "cancelButton": "Нет"
+        },
+        "succesProductDelete": {
+          "title": "Успешно",
+          "message": "Карта удалена"
+        }
+      },
+      "editName": {
+        "paramField": {
+          "errors": {
+            "empty": "Поле обязательно для заполнения",
+            "minLength": "Минимальная длина {minLength}"
+          }
+        },
+        "doneButton": "Готово"
+      },
+      "makeMainButton": "Сделать основным",
+      "deleteButton": "Удалить"
+    },
+    "accountInfo": {
+      "title": "Редактирование счёта",
+      "buttonTitle": "Сохранить",
+      "properties": {
+        "number": "Номер счета"
+      },
+      "modal": {
+        "deleteProduct": {
+          "title": "Внимание",
+          "message": "Действительно хотите удалить счет?",
+          "deleteButton": "Удалить",
+          "cancelButton": "Нет"
+        },
+        "succesProductDelete": {
+          "title": "Успешно",
+          "message": "Счет удален"
+        }
+      },
+      "editName": {
+        "paramField": {
+          "errors": {
+            "empty": "Поле обязательно для заполнения",
+            "minLength": "Минимальная длина {minLength}"
+          }
+        },
+        "doneButton": "Готово"
+      },
+      "makeMainButton": "Сделать основным",
+      "deleteButton": "Удалить"
+    },
+    "profile": {
+      "title": "Профиль",
+      "editButton": "Редактирование",
+      "settingsItem": {
+        "title": "Настройки"
+      },
+      "aboutAppItem": {
+        "title": "О приложении"
+      },
+      "version": "Версия{version}",
+      "contact_message": "Связаться с нами",
+      "logOutItem": {
+        "title": "Выход"
+      }
+    },
+    "profile_edit": {
+      "title": "Редактирование",
+      "modal": {
+        "success": {
+          "title": "Успешно",
+          "message": "Пользователь отредактирован"
+        }
+      },
+      "email_validator": {
+        "invalid_email": "Неправильный формат email",
+        "invalid_length": "Email слишком длинный",
+        "empty_email": "Поле email не заполнено"
+      },
+      "paramField": {
+        "errors": {
+          "empty": "Поле обязательно для заполнения",
+          "minLength": "Минимальная длина {minLength}"
+        }
+      },
+      "saveButton": "Готово"
+    },
+    "settings": {
+      "title": "Настройки",
+      "modal": {
+        "changePinSuccess": {
+          "title": "Успешно",
+          "message": "PIN-код измененён"
+        }
+      },
+      "sections": {
+        "access": {
+          "title": "Доступ",
+          "changePin": "Изменить код доступа"
+        },
+        "account": {
+          "tilte": "Аккаунт",
+          "language": "Язык",
+          "notification": "Способ оповещения",
+          "changePassword": "Изменить пароль"
+        },
+        "deleteAccount": {
+          "title": "Удаление учетной записи",
+          "text": "Вы уверены что хотите удалить учетную запись?",
+          "success": "Учетная запись успешно удалена",
+          "yes": "Да",
+          "no": "Нет"
+        },
+        "notificationMethod": {
+          "title": "Выберите способ оповещения",
+          "text": "",
+          "success": ""
+        }
+      },
+      "authWithBiometricsItem": {
+        "biometricDescription": "биометрии",
+        "message": "Вход по {biometricDescription}"
+      }
+    },
+    "change_password": {
+      "title": "Изменить пароль",
+      "saveButton": "Изменить",
+      "loadingTitle": "Пожалуйста, подождите",
+      "oldPasswordField": {
+        "title": "Старый пароль",
+        "errors": {
+          "incorrect": "Неверный старый пароль"
+        }
+      },
+      "newPasswordField": {
+        "title": "Новый пароль",
+        "errors": {
+          "passwordsNotMatch": "Пароли не совпадают"
+        }
+      },
+      "newPasswordRepeatField": {
+        "title": "Подтвердите новый пароль",
+        "errors": {
+          "passwordsNotMatch": "Пароли не совпадают"
+        }
+      }
+    },
+    "qr_scan": {
+      "flashButton": {
+        "turnOn": "Включить вспышку",
+        "turnOff": "Выключить вспышку"
+      },
+      "modal": {
+        "confirmation": {
+          "accountNumber": "Номер счета",
+          "eripCode": "Код услуги",
+          "summ": "Сумма",
+          "recieverName": "Наименование получателя"
+        },
+        "error": {
+          "title": "Ошибка",
+          "message": "QR-код невалидный. {error}"
+        }
+      },
+      "qrCam": {
+        "permissions": {
+          "denied": "Вы не предоставили разрешение доступа к камере",
+          "permamentlyDenied": "Доступ к камере пермаментно заблокирован вами или политикой безопасности телефона"
+        },
+        "providePermissionButton": "Предоставить разрешение",
+        "scanMessage": "Наведите камеру на QR-код"
+      }
+    },
+    "mdomAccruals": {
+      "title": "Организации",
+      "addButton": "+ Добавить cчет",
+      "accountItem": {
+        "title": "№ лицевого счета",
+        "underConsideration": "На рассмотрении",
+        "waitingRegistration": "Ожидает регистрации клиентом"
+      },
+      "pollItem": {
+        "title": "Голосования",
+        "newLabel": "Новое"
+      }
+    },
+    "mdomNotificationsScreen": {
+      "title": "Уведомления",
+      "readAllButton": "Прочесть всё",
+      "readButton": "Новое",
+      "successModal": {
+        "title": "Прочитано"
+      },
+      "loadMore": "Загрузить ещё",
+      "notificationsListEmpty": "Список уведомлений пуст"
+    },
+    "mdomAccountAdd": {
+      "title": "Добавление счета",
+      "successModal": {
+        "title": "Успешно",
+        "text": "Счёт добавлен"
+      },
+      "addButton": "Добавить",
+      "accountNumberField": {
+        "title": "Номер счета",
+        "errors": {
+          "empty": "Введите номер счета"
+        }
+      },
+      "codeWordField": {
+        "title": "Кодовое слово",
+        "errors": {
+          "empty": "Введите кодовое слово"
+        }
+      },
+      "supplierNameField": {
+        "title": "Наименование организации",
+        "errors": {
+          "empty": "Минимальная длина 3 символа"
+        }
+      }
+    },
+    "mdomCompanyChoise": {
+      "title": "Выбор организации",
+      "searchField": {
+        "hint": "Поиск"
+      },
+      "selectButton": "Выбрать"
+    },
+    "mdomCompanySearch": {
+      "title": "Поиск организации",
+      "searchField": {
+        "hint": "Поиск"
+      },
+      "UnpField": {
+        "title": "УНП",
+        "errors": {
+          "empty": "Введите УНП",
+          "length": "Минимальная длина 9 символов"
+        }
+      },
+      "NameField": {
+        "title": "Наименование организации",
+        "errors": {
+          "empty": "Введите наименование",
+          "length": "Минимальная длина 3 символа"
+        }
+      },
+      "errors": {
+        "empty": "Организация не найдена"
+      },
+      "selectButton": "Выбрать"
+    },
+    "mdomAccountInfo": {
+      "tilte": "Выписка по счету",
+      "periodSection": {
+        "tilte": "Период"
+      },
+      "chargingSection": {
+        "tilte": "Статистика начислений"
+      },
+      "paySection": {
+        "tilte": "Статистика по оплате"
+      },
+      "chargingSectionInfo": {
+        "remainder": "Переходящий остаток",
+        "fine": "Пеня",
+        "paid": "Оплачено",
+        "total": "Всего начислено"
+      },
+      "serviceSection": {
+        "tilte": "Статистика по услугам",
+        "item": {
+          "count": "Кол-во",
+          "rate": "Тариф"
+        }
+      },
+      "serviceSectionInfo": {
+        "item": {
+          "count": "Количество",
+          "units": "Единиц",
+          "tarif": "Тариф руб.",
+          "accrued": "Начислено руб.",
+          "recalculation": "Перерасчет руб.",
+          "benefit": "Льгота руб.",
+          "total": "Итого руб."
+        }
+      },
+      "requirementsInfo": {
+        "dateStart": "Дата начала действия требования:",
+        "dateEnd": "Дата окончания действия требования:",
+        "accrued": "Общая сумма оплат по требованию:",
+        "total": "Сумма к оплате:"
+      },
+      "payButton": {
+        "noPayments": "Готово",
+        "needPay": "Оплатить {amount} {currency}",
+        "noNeedPay": "Переплата {amount} {currency}"
+      },
+      "payInfo": "К оплате {amount} {currency}"
+    },
+    "mdomAccountPaymentInfo": {
+      "paymentDate": "Дата платежа",
+      "paymentCode": "Код платежа",
+      "sum": "Сумма",
+      "description": "Описание"
+    },
+    "mdomServiceInfo": {
+      "doneButton": "Готово"
+    },
+    "mdomPediod": {
+      "title": "Период",
+      "doneButton": "Выбрать"
+    },
+    "mdomPeriodCustom": {
+      "title": "Выбрать период",
+      "dateField": {
+        "errors": {
+          "format": "Неверный формат даты"
+        }
+      },
+      "dateFromField": {
+        "tilte": "Начало периода",
+        "hint": "01/01/2022",
+        "errors": {
+          "dateIsAfter": "Ошибка",
+          "empty": "Ошибка"
+        }
+      },
+      "dateToField": {
+        "tilte": "Конец периода",
+        "hint": "01/02/2022",
+        "errors": {
+          "dateIsBefore": "Ошибка",
+          "empty": "Ошибка"
+        }
+      },
+      "doneButton": "Выбрать"
+    },
+    "selectLanguage": {
+      "title": "Выберите язык",
+      "currentLanguageLabel": "Текущий"
+    },
+    "mdomPollsList": {
+      "title": "Голосования",
+      "filtersButton": "Фильтр",
+      "currentStatus": {
+        "title": "Статус"
+      },
+      "emptyDataMessage": "Список пуст.\nВоспользуйтесь фильтром",
+      "noMoreDataMessage": "Голосований больше нет.",
+      "pollItem": {
+        "votedText": {
+          "yes": "Вы проголосовали",
+          "no": "Не проголосовано"
+        },
+        "startText": "Начнется {date}",
+        "completedText": "Завершено {date}",
+        "endingText": "Окончание"
+      }
+    },
+    "mdomPollsListFilters": {
+      "title": "Голосования",
+      "cancelButton": "Отмена",
+      "resetButton": "Сбросить",
+      "statusPicker": {
+        "title": "Статус"
+      },
+      "endDateRangePicker": {
+        "title": "Окончание голосования",
+        "calendarModalTitle": "Окончание голосования"
+      },
+      "applyButton": "Применить"
+    },
+    "mdomPoll": {
+      "title": {
+        "expandText": "показать",
+        "collapseText": "свернуть"
+      },
+      "modal": {
+        "successVote": "Ваши ответы отправлены",
+        "successEdit": "Ваши ответы обновлены"
+      },
+      "linkItem": "Подробная информация",
+      "info": {
+        "ending": "Окончание"
+      },
+      "questionsList": {
+        "title": "Вопросы",
+        "votedText": "Вы проголосовали",
+        "startText": "Начнется {date}",
+        "completedText": "Завершено {date}"
+      },
+      "voteButton": {
+        "vote": "Проголосовать",
+        "edit": "Сохранить"
+      },
+      "editButton": "Изменить ответы",
+      "pollsStatButtonNoOneVoted": "Никто не проголосовал",
+      "pollsStatButtonNoOneVotedYeat": "Ёще никто не проголосовал",
+      "pollStatButton": {
+        "one": "Проголосовал {count} человек",
+        "few": "Проголосовало {count} человека",
+        "other": "Проголосовало {count} человек"
+      }
+    },
+    "mdomPollStatistics": {
+      "title": "Вопросы",
+      "votedText": "Проголосовало",
+      "participantsText": "Все участники"
+    },
+    "mdomPollStatisticsQuestion": {
+      "votedText": "Всего проголосовало",
+      "errorMessage": "Ошибка",
+      "answersTitle": {
+        "yes": "Да",
+        "no": "Нет",
+        "abstain": "Воздержались"
+      }
+    }
+  },
+  "models": {
+    "paramType": {
+      "error": "Некорректное значение"
+    },
+    "period": {
+      "title": "Лицевой счет",
+      "names": {
+        "notSet": "Неизвестно",
+        "month": "Месяц",
+        "quarter": "Квартал",
+        "year": "Год",
+        "custom": "Выбрать период"
+      },
+      "selectedNames": {
+        "notSet": "Выбрать период",
+        "month": "{month} {year}",
+        "quarter": "{quarter} квартал {year}",
+        "year": "{year} год",
+        "custom": "{startDate} - {endDate}"
+      }
+    },
+    "pollStatus": {
+      "all": "Все",
+      "publication": "Публикация",
+      "inProgress": "Идет голосование",
+      "completed": "Завершено"
+    },
+    "pollAnswer": {
+      "active": {
+        "yes": "Да",
+        "no": "Нет",
+        "abstain": "Воздержаться"
+      },
+      "voted": {
+        "yes": "Да",
+        "no": "Нет",
+        "abstain": "Воздерж."
+      }
+    }
+  },
+  "widgets": {
+    "refreshHeader": {
+      "idle": "Потяните вниз, чтобы обновить"
+    },
+    "refreshFooter": {
+      "statuses": {
+        "noMoreData": "Данных больше нет",
+        "idle": "Загрузить еще",
+        "failed": "Ошибка связи с сервером",
+        "canLoading": "Отпустите, чтобы загрузить еще"
+      }
+    },
+    "emailField": {
+      "errors": {
+        "incorrect": "Неверный формат E-mail",
+        "empty": "Введите E-mail"
+      }
+    },
+    "fioField": {
+      "errors": {
+        "incorrect": "Неверный формат ФИО",
+        "empty": "Введите ФИО"
+      }
+    },
+    "passwordField": {
+      "title": "Пароль",
+      "errors": {
+        "empty": "Введите пароль",
+        "minLength": "Минимальная длина пароля {minLength} символом"
+      }
+    }
+  },
+  "modal": {
+    "pinSetup": {
+      "title": {
+        "first": "Придумайте PIN",
+        "repeat": "Повторите новый PIN"
+      },
+      "cancelButton": "Отмена",
+      "localizedReason": "Авторизация в приложении"
+    },
+    "pinVerify": {
+      "title": "Введите PIN",
+      "decisionMessageTitle": "Для смены PIN-кода повторите авторизацию",
+      "forgetPinButton": "Забыли PIN-код?",
+      "cancelButton": "Отмена",
+      "continueButton": "Продолжить",
+      "biometricReason": "Авторизация в приложении"
+    },
+    "biometricSetup": {
+      "biometricDescription": "биометрию",
+      "title": "Использовать {biometricDescription} для входа в приложение?",
+      "confirmButton": "Да",
+      "cancelButton": "Нет"
+    },
+    "decisionMessage": {
+      "title": "Внимание",
+      "confirmButton": "Ок",
+      "cancelButton": "Отмена"
+    },
+    "decisionMessageCardIssue": {
+      "confirmButton": "Продолжить",
+      "cancelButton": "Отменить"
+    },
+    "logOut": {
+      "title": "Уверены, что хотите выйти?",
+      "message": "Ваши авторизованные данные будут удалены с устройства",
+      "confirmButton": "Выйти",
+      "cancelButton": "Остаться"
+    }
+  },
+  "general": {
+    "errorModal": {
+      "title": "Ошибка"
+    }
+  },
+  "exceptions": {
+    "emtyOrganizationsList": "Добавьте счет",
+    "emtyMainProduct": "Отсутствует карта или номер счёта, пожалуйста добавьте или сделайте основным карту или счёт во вкладке продукты",
+    "network": "Не удалось связаться с серверами",
+    "changePasswordBloc": {
+      "wrongOldPassword": "Неверный старый пароль"
+    },
+    "paymentBloc": {
+      "unknownService": "Не удалось получить информацию об услуге"
+    },
+    "qrErip": {
+      "verifyCheckSum": "Неверная контрольная суммая"
+    },
+    "onlyIndividuals": "Данный кабинет предназначен для физ. лиц"
+  }
+}

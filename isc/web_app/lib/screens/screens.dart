@@ -1,0 +1,9 @@
+export 'auth/auth_screen.dart';
+export 'claim_info/claim_info_screen.dart';
+export 'claims/claims_screen.dart';
+export 'payment_info/payment_info_screen.dart';
+export 'payments/payments_screen.dart';
+export 'profile/profile_screen.dart';
+export 'register_payment_claim/register_payment_claim_screen.dart';
+export 'settings/settings_screen.dart';
+export 'splash/splash_screen.dart';

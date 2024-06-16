@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "4473626187",
+    "project_id": "helppay-ba5e5",
+    "storage_bucket": "helppay-ba5e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4473626187:android:bef7464b6a47a8635f77ce",
+        "android_client_info": {
+          "package_name": "by.mdom.helppay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4473626187-hvaa9i4ci9jtg4sqbj2pnhp09pn585m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYsDAL-RmO1adEGmS-X55fsSjW7qY8R8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4473626187-hvaa9i4ci9jtg4sqbj2pnhp09pn585m5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "4473626187-kk7cct0hrh4nf7j5pglr0nuqvfqn1kk4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "by.mdom.helppay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

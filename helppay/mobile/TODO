@@ -1,0 +1,27 @@
+in work:
+- dark theme
+- show/hide title refactoring
+- look SelectedListTile
+- set min dart 2.17.0 and refactoring super-parameters
+- При аккумуляции периодов как я понимаю (баланс, перерасчет) надо просто брать последнее значение, а не аккумулировать
+- Отображение экрана инфо о голосовании, если голосование недоступно (брать из профиля)
+- mdom_accruals: title size, list separator size
+- migrate to auto_route
+
+done:
+- mdom_polls_list: poll_item voted for each account  @done
+- integrate My app @done
+- localization @done
+- navigation with name. move all unused providers to navigation. @done
+- refactoring TabBloc @done
+- remove properties from bloc states base classes @done
+- refactoring ProfileBloc @done
+- refactoring ProductsBloc @done
+- upgrade all dependencies @done
+- refactoring HistoryBloc @done
+- uncomment analysis_options.yml @done
+- upgrade bloc @done
+- change padding to SizedBox where possible @done
+- remove <Widget> @done
+- move dataManager in parameter in all blocs @done
+- move all navigator.push & showScrollableDialog to navigation.dart @done
