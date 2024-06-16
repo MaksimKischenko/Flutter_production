@@ -1,0 +1,13 @@
+- add GetUserProfile, CheckConnection
+- SettingScreen: add form text fields 
+- BasketScreen: change table to data_table_plus, add remove action button @done
+- field_page.dart: check showing sum field @done
+- normalize paddings in all screens
+- service_screen: когда открыта вторая корзина, BlocListener<BasketBloc> срабатывает на BasketOpened после event BasketAddPayment и перенаправляет на услугу повторно @done
+- add CheckConnection bloc @done
+- add getUserProfile update bloc
+- add dialog closing timer @done
+- add reset session timer @done
+- CheckSessionWrapper: handle only tap event
+- main.dart: remove textScaleFactor. Resize all text manually
+- attr_field: add onChange event: checking maxLength @done, but with controller.addListener

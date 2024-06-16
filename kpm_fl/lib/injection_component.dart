@@ -1,0 +1,63 @@
+// import 'package:alice/alice.dart';
+import 'package:dio/dio.dart';
+import 'package:dio_http_formatter/dio_http_formatter.dart';
+import 'package:flutter/foundation.dart';
+import 'package:injector/injector.dart';
+import 'package:kpm_fl/data/data.dart';
+
+class InjectionComponent {
+  static final InjectionComponent _singleton = InjectionComponent._internal();
+  // Use this static instance
+  static final Injector injector = Injector.appInstance;
+
+  factory InjectionComponent() => _singleton;
+
+  InjectionComponent._internal();
+
+  static Future<void> run() async {
+    final connectTimeout = await PreferencesHelper.read(PrefsKeys.connectionTimeout);
+    final receiveTimeout = await PreferencesHelper.read(PrefsKeys.receiveTimeout);
+
+    //Inject all
+    injector
+      ..registerSingleton<Dio>(() {
+        final dio = Dio();
+        dio.options.connectTimeout = Duration(milliseconds: connectTimeout! * 1000);
+        dio.options.receiveTimeout = Duration(milliseconds: receiveTimeout! * 1000);
+
+        // inject debug dependency
+        if (kDebugMode) {
+          // final alice =  Alice(showNotification: false, showInspectorOnShake: true, darkTheme: true)..setNavigatorKey(Navigation.navigatorKey);
+          // dio.interceptors.add(InterceptorsWrapper(
+          //   onRequest: (options, handler) {
+          //     //logger.i(options.uri);
+          //     logger.i(options.data);
+          //     return handler.next(options);
+          //   },
+          //   onResponse: (response, handler) {
+          //     logger.i(response.data);
+          //     return handler.next(response);
+          //   },
+          //   onError: (e, handler) {
+          //     logger.e(e.message);
+          //     return handler.next(e);
+          //   }
+          // ));
+
+          dio.interceptors.add(HttpFormatter());
+
+          // dio.interceptors.add(alice.getDioInterceptor());
+        }
+
+        return dio;
+      })
+      ..registerSingleton<DataManager>(() {
+        final dio = injector.get<Dio>();
+        // return FakeDataManager(dio);
+        return RealDataManager(dio);
+      });
+  }
+
+  static T getDependency<T>() => injector.get<T>();
+  
+}

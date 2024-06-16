@@ -1,0 +1,59 @@
+name: kpm_fl
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  dio: ^5.3.0
+  retrofit: ^4.0.1
+  json_annotation: ^4.8.1
+  dio_http_formatter: ^3.1.0
+  injector: ^2.0.0
+  rxdart: ^0.27.3
+  intl: ^0.18.0
+  dartx: ^1.0.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  responsive_builder: ^0.4.2
+  flutter_svg: ^1.0.3
+  url_strategy: ^0.2.0
+  responsive_ui: ^2.1.0
+  bloc_concurrency: ^0.2.0
+  shared_preferences: ^2.0.13
+  desktop_window: ^0.4.0
+  pdfx: ^2.5.0
+  package_info_plus: ^4.2.0
+  html_unescape: ^2.0.0
+  badges: ^2.0.2
+  device_preview: ^1.0.0
+  internet_file: ^1.0.0+2
+  barcode_widget: ^2.0.2
+  # built_in_keyboard:
+  #   git:
+  #     url: https://github.com/Open-pi/builtinkeyboard.git
+  #     ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: ^7.0.8
+  build_runner: ^2.1.5
+  json_serializable: ^6.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/files/
+    - assets/icon/
+    - assets/img/
